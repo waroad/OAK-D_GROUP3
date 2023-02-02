@@ -4,33 +4,36 @@ Play snake game with your hand!
 
 ## Installation
 
-You need to have DepthAI and few other dependencies installed on your system.
-
-Execute the script below to install DepthAI on Linux systems:
+Clone hand tracker repo.
 ```
 Git clone https://github.com/geaxgx/depthai_hand_tracker.git
 ```
 
-Then install additional dependencies
+Install additional dependencies
 ```
 python3 -m pip install -r requirements.txt
 ```
 
+Clone the code that we have written.
+```
+Git clone https://github.com/waroad/OAK-D_GROUP3.git
+```
+
+## Copy and Paste
+
+Copy all python files from OAK-D_GROUP3, and paste them in the depthai_hand_tracker folder.
+
+## Run
+
 ```
 cd depthai_hand_tracker 
 ```
-## Replace
 
-Download start.py, snake.py  demo.py, Hand
-
+Now play the game!
 ```
-git clone https://github.com/ranzuh/harai_blur_objects
+python3 start.py -g 
 ```
 
-Now you can go to the folder and run the script
-```
-cd harai_blur_objects
-python3 blur_objects.py
-```
+Hold fist to start the game, and raise only thumb and pinky to exit the game. 
 
-Make sure your OAK-D camera is connected.
+Control the snake with fingers, index to go down, middle to go left, ring to go up, little to go right.
