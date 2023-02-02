@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from HandTrackerRenderer import HandTrackerRenderer
+from HandTrackerRendererForSnake import HandTrackerRenderer
 import argparse
 
 parser = argparse.ArgumentParser()
