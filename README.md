@@ -1,6 +1,6 @@
 # Snake Game with depthAI_hand_tracker
 
-PLay snake game with your hand!
+Play snake game with your hand!
 
 ## Installation
 
@@ -19,9 +19,9 @@ python3 -m pip install -r requirements.txt
 ```
 cd depthai_hand_tracker 
 ```
-## Run
+## Replace
 
-Clone the github repo
+Download start.py, snake.py  demo.py, Hand
 
 ```
 git clone https://github.com/ranzuh/harai_blur_objects
