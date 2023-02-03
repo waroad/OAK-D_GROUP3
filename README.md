@@ -4,12 +4,12 @@ Play snake game with your hand!
 
 ## Installation
 
-# Clone hand tracker repo.
+### Clone hand tracker repo.
 ```
-Git clone https://github.com/geaxgx/depthai_hand_tracker.git
+git clone https://github.com/geaxgx/depthai_hand_tracker.git
 ```
 
-# Install additional dependencies
+### Install additional dependencies
 ```
 cd depthai_hand_tracker
 ```
@@ -17,15 +17,15 @@ cd depthai_hand_tracker
 python3 -m pip install -r requirements.txt
 ```
 
-# Clone the code that we have written.
+### Clone the code that we have written.
 ```
 cd ..
 ```
 ```
-Git clone https://github.com/waroad/OAK-D_GROUP3.git
+git clone https://github.com/waroad/OAK-D_GROUP3.git
 ```
 
-# Copy and Paste
+### Copy and Paste
 
 Copy all python files from OAK-D_GROUP3, and paste them in the depthai_hand_tracker folder.
 
@@ -35,7 +35,7 @@ Copy all python files from OAK-D_GROUP3, and paste them in the depthai_hand_trac
 cd depthai_hand_tracker 
 ```
 
-Now play the game!
+### Now play the game!
 ```
 python3 start.py -g 
 ```
