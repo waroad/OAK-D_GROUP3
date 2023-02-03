@@ -99,7 +99,7 @@ class HandTrackerRenderer:
                         if kkk:
                             if hand.thumb_state == 1 and hand.index_state == 0 and \
                                     hand.middle_state == 0 and hand.ring_state == 0 and hand.little_state == 1:
-                                snake.exit()
+                                snake.exit_game()
                                 exit1 = 1
                             if hand.index_state == 0:
                                 snake.change('DOWN')

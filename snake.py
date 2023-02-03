@@ -82,9 +82,14 @@ def game_over():
     begin()
 
 
-def exit():
+def exit_game():
     pygame.quit()
     sys.exit()
+
+
+def change(state1):
+    global change_to
+    change_to=state1
 
 
 # Score
@@ -98,11 +103,6 @@ def show_score(choice, color, font, size):
         score_rect.midtop = (frame_size_x/2, frame_size_y/1.25)
     game_window.blit(score_surface, score_rect)
     # pygame.display.flip()
-
-
-def change(state1):
-    global change_to
-    change_to=state1
 
 
 # Main logic

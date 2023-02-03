@@ -86,14 +86,10 @@ while True:
     frame, hands, bag = tracker.next_frame()
     if frame is None: break
     # Draw hands
-    frame,state = renderer.draw(frame, hands, bag)
+    frame,exit1 = renderer.draw(frame, hands, bag)
     key = renderer.waitKey(delay=1)
-    if state==1: break
+    if exit1==1: break
     if key == 27 or key == ord('q'):
         break
-    if key == ord('a'):
-        print("hi")
-    if key == ord('b'):
-        print("bye")
 renderer.exit()
 tracker.exit()
