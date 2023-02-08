@@ -31,11 +31,10 @@ Copy all python files from OAK-D_GROUP3, and paste them in the depthai_hand_trac
 
 ## Run
 
+### Now play the game!
 ```
 cd depthai_hand_tracker 
 ```
-
-### Now play the game!
 ```
 python3 start.py -g 
 ```
