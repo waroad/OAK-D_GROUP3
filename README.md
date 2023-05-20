@@ -1,4 +1,6 @@
-# Snake Game with depthAI_hand_tracker
+# Snake Game with depthAI_hand_tracker and Final project analyze using OAK-D
+
+## for the final project analyze, open the file final_project_1.ipynb
 
 Play snake game with your hand!
 
